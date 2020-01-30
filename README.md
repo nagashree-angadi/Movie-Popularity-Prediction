@@ -8,9 +8,9 @@ The purpose of the project is to build a model that predicts the contemporary po
 3. The Movie Database ( TMDb )
 
 ## Data Cleaning and Merging
-1. Inflation adjustment for Revenue and Gross
+1. Inflation adjustment for Revenue and Gross.
 2. Creating custom variables such as total number of awards, popularity season.
-3. Imputing null values
+3. Imputing null values.
 4. Merging features such as vote average and vote count to get more meaning full feature.
 5. Merging all the datasets.
 
@@ -40,5 +40,8 @@ Performed analysis on the following,
 2. Impact of the actor’s popularity on the success of the movie.
 3. Genre trend analysis over the years.
 4. Impact of awards on the success of the movie.
+
+## Conclusion
+We successfully explored and analyzed the movie data over the years. We built a comprehensive dataset by scraping data from IMDb, TMDb, boxofficemojo.com and google trends. We determined the popularity metric based on the release time features which helped us analyze the longevity of the movie from the time of its release. We built the prediction model after careful data munging and deriving insights from the elaborative exploratory data analysis. We determined the contemporary popularity of the movie by the Borda Count Ranking model coupled with decay law. We validated our derived popularity score by using several machine learning algorithms.
 
 
